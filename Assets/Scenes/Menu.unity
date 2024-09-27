@@ -331,7 +331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INMERSIVE VIDEO
+  m_text: VIDEO INMMERSIVO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -521,10 +521,10 @@ RectTransform:
   - {fileID: 1298445874}
   m_Father: {fileID: 1035790432964534788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 60}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.9, y: -123.66}
+  m_SizeDelta: {x: 363.8, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77351565
 MonoBehaviour:
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
+  m_text: 'PROCEDIMIENTOS
 
 '
   m_isRightToLeft: 0
@@ -1739,7 +1739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CLOSE
+  m_text: CERRAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -2157,19 +2157,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero
-    quam, auctor non sodales vel, convallis vitae eros. Aenean in pharetra massa.
-    Quisque semper dui vitae ex lacinia, id dictum elit egestas. Etiam ultrices tortor
-    at scelerisque tristique. Quisque quam enim, tristique nec fringilla eu, placerat
-    vel lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-    cubilia curae; Praesent quis sodales purus. In id pellentesque dolor. Suspendisse
-    varius, dui sit amet iaculis porttitor, nisl odio pulvinar erat, eget malesuada
-    ex neque et est. Vivamus ultrices mi at turpis venenatis rutrum sit amet eu lectus.\r\n\r\nInteger
-    convallis ante eros, id condimentum mauris accumsan ac. Suspendisse finibus volutpat
-    sapien quis varius. Nam accumsan nulla ut sapien fringilla interdum. Integer
-    non magna est. Integer eu iaculis lorem. Curabitur aliquam enim eget tempor pretium.
-    Fusce quis facilisis dui, a ullamcorper elit. Donec sodales rutrum erat, at placerat
-    nisl euismod sit amet. \n"
+  m_text: "Es un hombre Paciente  de 80 a\xF1os,que presenta Artrosis bilaterales
+    Osteoporosis avanzada,con antecedentes de reemplazo  de Cadera derecha por posible
+    trauma o fractura,y que por sus antecedentes no se puede realizar otro procedimiento\_\_Qx\_invasivo.\n\nPosible
+    sobretodo,y presenta artrosis marcada de Articulaci\xF3n Coxofemoral\_Izquierda.\n\nPrimer
+    punto realizar una Historia cl\xEDnica  adecuada,con Antecedentes   (posibles
+    patolog\xEDas\_\_cron\xF3nicas).\n\nEntonces se indaga,datos generales de Nombre:
+    Edad:\nFecha: Estado Civil:Acompa\xF1ante:Tipo\_aseguramiento:\n\nPosible Dx:Osteartrosis
+    degenerativa grado\_III\n\nObesidad  y Diabetes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -3101,9 +3096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: PROCEDIMIENTOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -3207,7 +3200,7 @@ RectTransform:
   m_GameObject: {fileID: 502446722}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2551, y: 2.2551, z: 2.2551}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1483025672}
@@ -3237,7 +3230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa1e07d3e3ba968489f3cba3bbe76b41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 592fedefab2dca14d95df2cdfebeb96d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3680,9 +3673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: "CIRUG\xCDA DE CEMENTACI\xD3N OSEA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -3745,7 +3736,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -180.45374, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4349,7 +4340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &664094830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4541,7 +4532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10, y: 29}
+  m_AnchoredPosition: {x: -10, y: 35}
   m_SizeDelta: {x: -125.4, y: 7.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686520094
@@ -5168,7 +5159,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806640180}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.99998707}
   m_LocalScale: {x: 0.475, y: 0.47499996, z: 0.475}
   m_ConstrainProportionsScale: 0
@@ -5176,7 +5167,7 @@ RectTransform:
   - {fileID: 973766355}
   - {fileID: 936480358}
   m_Father: {fileID: 548373527}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -307.29996, y: 15.299881}
@@ -5687,7 +5678,7 @@ RectTransform:
   m_GameObject: {fileID: 812543653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1756, y: 2.1756, z: 2.1756}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 969499400}
@@ -5717,7 +5708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa1e07d3e3ba968489f3cba3bbe76b41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 592fedefab2dca14d95df2cdfebeb96d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6035,10 +6026,10 @@ RectTransform:
   - {fileID: 1885221800}
   m_Father: {fileID: 1035790432964534788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 60}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.9, y: -203.32}
+  m_SizeDelta: {x: 363.8, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &877212338
 MonoBehaviour:
@@ -7219,7 +7210,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981886234}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.99998707}
   m_LocalScale: {x: 0.475, y: 0.47499996, z: 0.475}
   m_ConstrainProportionsScale: 0
@@ -7227,7 +7218,7 @@ RectTransform:
   - {fileID: 218758940}
   - {fileID: 1037442767}
   m_Father: {fileID: 1918744275}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -307.29996, y: 15.299881}
@@ -8846,7 +8837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PROCEDURES
+  m_text: PROCEDIMIENTOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -9578,7 +9569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FILE
+  m_text: ARCHIVO MEDICO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -9788,7 +9779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SIMULATOR
+  m_text: SIMULADOR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -10053,7 +10044,7 @@ RectTransform:
   m_GameObject: {fileID: 1260894383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47453955, y: 0.47453943, z: 0.47453955}
+  m_LocalScale: {x: 0.5223947, y: 0.52239454, z: 0.5223947}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1699337270}
@@ -10526,9 +10517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: REVIVE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -12548,7 +12537,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628934933}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.99998707}
   m_LocalScale: {x: 0.475, y: 0.47499996, z: 0.475}
   m_ConstrainProportionsScale: 0
@@ -12556,7 +12545,7 @@ RectTransform:
   - {fileID: 587110791}
   - {fileID: 1373525815}
   m_Father: {fileID: 85207990}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -307.8, y: 15.300049}
@@ -12802,7 +12791,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2046629160}
         m_TargetAssemblyTypeName: UIMenuController, Assembly-CSharp
-        m_MethodName: ActivatePanel
+        m_MethodName: ChangePanel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13880,7 +13869,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -1.7272356e-28, z: 8.31e-43, w: 1.16e-43}
+  m_BoundingSphereOverride: {x: 2.9956389e+32, y: 1.8888923e+31, z: 0, w: 7.6e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -14377,9 +14366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: ARCHIVO MEDICO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -14820,7 +14807,7 @@ RectTransform:
   m_GameObject: {fileID: 2024082475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47453955, y: 0.47453943, z: 0.47453955}
+  m_LocalScale: {x: 0.5223947, y: 0.52239454, z: 0.5223947}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1414222513}
@@ -15302,9 +15289,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: "CEMENTACI\xD3N OSEA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -15625,7 +15610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &490446792214207346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15984,7 +15969,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000015258789, y: -0.000004629139}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 233.32}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1068674045220875496
 MonoBehaviour:
@@ -16097,10 +16082,10 @@ RectTransform:
   - {fileID: 5251477148058122590}
   m_Father: {fileID: 1035790432964534788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 60}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.9, y: -44}
+  m_SizeDelta: {x: 363.8, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1276351174070687806
 CanvasRenderer:
@@ -16267,7 +16252,7 @@ RectTransform:
   m_GameObject: {fileID: 6334526861500724650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47453955, y: 0.47453943, z: 0.47453955}
+  m_LocalScale: {x: 0.59616405, y: 0.59616387, z: 0.59616405}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2149042623868790046}
@@ -16310,9 +16295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum
-
-'
+  m_text: 'REVIVE '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -17270,7 +17253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PLAYGROUND TUTORIAL
+  m_text: TUTORIAL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -17356,7 +17339,7 @@ RectTransform:
   m_GameObject: {fileID: 8309909814764188876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5392, y: 1.5392, z: 1.5392}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2340346671534887059}
@@ -17364,7 +17347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -352, y: 51}
+  m_AnchoredPosition: {x: -286, y: 30}
   m_SizeDelta: {x: -102, y: 48}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &3366261876951673231
@@ -17490,8 +17473,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de0113b98aad70a419960e61a7d8d6ef, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 592fedefab2dca14d95df2cdfebeb96d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -18069,7 +18052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: VER PROCEDIMIENTO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -18772,7 +18755,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa1e07d3e3ba968489f3cba3bbe76b41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 592fedefab2dca14d95df2cdfebeb96d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19553,7 +19536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the VR Template! \nLet\u2019s learn about some of the features."
+  m_text: "Cirug\xEDa de Cementaci\xF3n Osea"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -19580,8 +19563,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20006,7 +19989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -274}
+  m_AnchoredPosition: {x: 0, y: -283}
   m_SizeDelta: {x: 302, y: 68}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8580299911481207420
