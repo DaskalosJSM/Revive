@@ -6201,14 +6201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20fd7d715f2156640957bbcb9539d58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsMonotoring: 0
-  particleSystems:
-  - particleSystem: {fileID: 5751573944594682881}
-    isMonitoringParticle: 1
-  - particleSystem: {fileID: 7015644019391003475}
-    isMonitoringParticle: 1
-  - particleSystem: {fileID: 7120190289983349985}
-    isMonitoringParticle: 1
+  IsMonitoring: 0
+  objectsToActivate:
+  - {fileID: 8402471367729906942}
+  - {fileID: 9222182294000303119}
 --- !u!1 &4984171307428926597
 GameObject:
   m_ObjectHideFlags: 0
@@ -17274,10 +17270,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8899019455484518635}
-  - {fileID: 8980017598712292526}
-  - {fileID: 2818000441779312915}
   - {fileID: 4588092578655829119}
   - {fileID: 7593580704493239166}
+  - {fileID: 8980017598712292526}
+  - {fileID: 2818000441779312915}
   m_Father: {fileID: 5825803190480923911}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}

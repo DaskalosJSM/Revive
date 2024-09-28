@@ -30,11 +30,38 @@ public class HeartRateMonitor : MonoBehaviour
 
     // Valor objetivo del ritmo cardíaco
     private float targetHeartRate;
+    bool wasMonitoring = false;
+
+    void Update()
+{
+    bool isMonitoring = MonitorController.Instance.IsMonitoring; // Estado actual del monitoreo
+
+    if (!isMonitoring) // Si no está monitoreando
+    {
+        heartRateText.text = "--";
+        StopAllCoroutines();
+        wasMonitoring = false; // Reseteamos el flag cuando deja de monitorear
+    }
+    else if (isMonitoring && !wasMonitoring) // Solo entra si el estado ha cambiado de no-monitoreo a monitoreo
+    {
+        wasMonitoring = true; // Actualizamos el flag para reflejar que el monitoreo ha empezado
+        Invoke("ReestartMonitor", 0f); // Invocamos la función una sola vez cuando cambia el estado
+    }
+}
+
+// Reinicia la simulación
+void ReestartMonitor()
+{
+    currentHeartRate = Random.Range(minHeartRate, maxHeartRate + 1);
+    heartRateText.text = Mathf.RoundToInt(currentHeartRate).ToString(); // Mostrar este valor inicial
+    StartCoroutine(StartMonitoringWithDelay());
+
+}
 
     // Iniciar la simulación cuando el objeto se habilita
     void OnEnable()
     {
-        isMonitoring = MonitorController.Instance.IsMonotoring;
+        isMonitoring = MonitorController.Instance.IsMonitoring;
         // Inicializar currentHeartRate con un valor aleatorio dentro del rango para evitar la transición desde 0
         currentHeartRate = Random.Range(minHeartRate, maxHeartRate + 1);
         heartRateText.text = Mathf.RoundToInt(currentHeartRate).ToString(); // Mostrar este valor inicial

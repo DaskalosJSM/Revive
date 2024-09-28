@@ -4,36 +4,46 @@ using UnityEngine;
 
 public class MonitorController : Singleton<MonitorController>
 {
-    // Referencia al script HeartRateMonitor para activar/desactivar monitoreo
-    public bool IsMonotoring;
-    public List<ParticleSystemInfo> particleSystems;
+      public bool IsMonitoring;
+    // GameObjects que se activarán
+    public GameObject[] objectsToActivate;
 
-    // Lista de sistemas de partículas que están asociados al estado de monitoreo
-    [System.Serializable]
-    public class ParticleSystemInfo
+    void Update()
     {
-        public ParticleSystem particleSystem; // El sistema de partículas en sí
-        public bool isMonitoringParticle;     // Indica si el sistema de partículas es parte del monitoreo
-    }
-
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-  void Update()
-{
-    for (int i = 0; i < particleSystems.Count; i++)
-    {
-        if (particleSystems[i].particleSystem != null) // Verifica si no es null
+        // Usamos switch para manejar el estado de IsMonitoring
+        switch (IsMonitoring)
         {
-            particleSystems[i].particleSystem.gameObject.SetActive(IsMonotoring);
-        }
-        else
-        {
-            Debug.LogWarning($"El ParticleSystem en el índice {i} es null.");
+            case true:
+                ActivateObjects();
+                break;
+            case false:
+                DeactivateObjects();
+                break;
         }
     }
-}
 
+    // Activar objetos
+    public void ActivateObjects()
+    {
+        foreach (GameObject obj in objectsToActivate)
+        {
+            if (obj != null)  // Comprobación para evitar errores si alguno es nulo
+            {
+                obj.SetActive(true);
+            }
+        }
+    }
 
-    // Lista de todos los sistemas de p
+    // Desactivar objetos
+    public void DeactivateObjects()
+    {
+        foreach (GameObject obj in objectsToActivate)
+        {
+            if (obj != null)  // Comprobación para evitar errores si alguno es nulo
+            {
+                obj.SetActive(false);
+            }
+        }
+    }
+
 }
