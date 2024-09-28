@@ -208,7 +208,6 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1815006982705121779}
   - {fileID: 4408209188652602353}
   - {fileID: 8714600624571498913}
   m_Father: {fileID: 0}
@@ -6157,54 +6156,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &4813622942154751365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1815006982705121779}
-  - component: {fileID: 2659073191273837114}
-  m_Layer: 0
-  m_Name: MonitorController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1815006982705121779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4813622942154751365}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.113784865, y: 3.0754852, z: 2157.189}
-  m_LocalScale: {x: 3.3333333, y: 6.6666665, z: 6.6666665}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5213073279352642093}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2659073191273837114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4813622942154751365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20fd7d715f2156640957bbcb9539d58c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsMonitoring: 0
-  objectsToActivate:
-  - {fileID: 8402471367729906942}
-  - {fileID: 9222182294000303119}
 --- !u!1 &4984171307428926597
 GameObject:
   m_ObjectHideFlags: 0
