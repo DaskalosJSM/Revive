@@ -61,7 +61,10 @@ void ReestartMonitor()
     // Iniciar la simulación cuando el objeto se habilita
     void OnEnable()
     {
-        isMonitoring = MonitorController.Instance.IsMonitoring;
+        if (MonitorController.Instance!=null)
+        {
+            isMonitoring = MonitorController.Instance.IsMonitoring;
+        }
         // Inicializar currentHeartRate con un valor aleatorio dentro del rango para evitar la transición desde 0
         currentHeartRate = Random.Range(minHeartRate, maxHeartRate + 1);
         heartRateText.text = Mathf.RoundToInt(currentHeartRate).ToString(); // Mostrar este valor inicial

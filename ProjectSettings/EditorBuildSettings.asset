@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 11fccb60f44c1ce4997295df5d3ac227
   - enabled: 1
-    path: Assets/Scenes/Video.unity
+    path: Assets/Scenes/Surgery.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   - enabled: 1
     path: Assets/Scenes/PlayGround.unity
     guid: 4620eb7dcad3b26469b7480a66de9a82
   - enabled: 1
-    path: Assets/Scenes/Surgery.unity
+    path: Assets/Scenes/Interactive Video.unity
     guid: 0eca04d6ad4eab64786f644eab425b85
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
