@@ -61,8 +61,8 @@ namespace Unity.VRTemplate
                 VideoPlay(); // Play to ensure correct state.
             }
 
-            if (m_ButtonPlayOrPause != null)
-                m_ButtonPlayOrPause.SetActive(false);
+            // if (m_ButtonPlayOrPause != null)
+            //    m_ButtonPlayOrPause.SetActive(false);
         }
 
         void OnEnable()
@@ -82,6 +82,14 @@ namespace Unity.VRTemplate
 
         void Update()
         {
+            if (m_VideoIsPlaying)
+            {
+                m_ButtonPlayOrPauseIcon.sprite = m_IconPause;
+            }
+            else 
+            {
+                m_ButtonPlayOrPauseIcon.sprite = m_IconPlay;
+            }
             if (m_VideoJumpPending)
             {
                 // We're trying to jump to a new position, but we're checking to make sure the video player is updated to our new jump frame.
@@ -177,16 +185,15 @@ namespace Unity.VRTemplate
         {
             m_VideoIsPlaying = false;
             m_VideoPlayer.Pause();
-            m_ButtonPlayOrPauseIcon.sprite = m_IconPlay;
-            m_ButtonPlayOrPause.SetActive(true);
+            // m_ButtonPlayOrPause.SetActive(true);
         }
 
         void VideoPlay()
         {
             m_VideoIsPlaying = true;
             m_VideoPlayer.Play();
-            m_ButtonPlayOrPauseIcon.sprite = m_IconPause;
-            m_ButtonPlayOrPause.SetActive(false);
+            // m_ButtonPlayOrPause.SetActive(false);
         }
+
     }
 }
