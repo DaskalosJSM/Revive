@@ -66,12 +66,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Exponent: 1
-    - _Exponent1: 9
-    - _Exponent2: 9
+    - _Exponent1: 46.95
+    - _Exponent2: 7.13
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Intensity: 1
+    - _Intensity: 2.75
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -86,7 +86,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0}
-    - _Color2: {r: 0.33021143, g: 0.14019935, b: 0.3660378, a: 0}
+    - _Color2: {r: 0.14117646, g: 0.3647059, b: 0.35460925, a: 0}
     - _Color3: {r: 0.0076966807, g: 0.02290742, b: 0.08679241, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _UpVector: {r: 0, g: 1, b: 0, a: 0}

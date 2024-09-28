@@ -4,7 +4,7 @@ public class MoveObject : MonoBehaviour
 {
     public float velocidad = 5f;
     public float desplazamientoMaximo = 10f;
-    [SerializeField] private float limite;
+     private float limite;
     private float posicionInicialY;
     public bool invertirMovimiento = false;
     private bool enContactoConSuction = false;
