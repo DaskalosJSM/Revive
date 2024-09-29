@@ -9880,6 +9880,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4588092578655829119, guid: 6217167de4630124f904bd7182e35716, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.314355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4588092578655829119, guid: 6217167de4630124f904bd7182e35716, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -9948,6 +9952,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7593580704493239166, guid: 6217167de4630124f904bd7182e35716, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.314355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593580704493239166, guid: 6217167de4630124f904bd7182e35716, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -9966,6 +9974,10 @@ PrefabInstance:
     - target: {fileID: 8899019455484518635, guid: 6217167de4630124f904bd7182e35716, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899019455484518635, guid: 6217167de4630124f904bd7182e35716, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.314355
       objectReference: {fileID: 0}
     - target: {fileID: 8899019455484518635, guid: 6217167de4630124f904bd7182e35716, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10452,7 +10464,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 7.1e-44, z: 3.0579e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -11328,7 +11340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 0.01
-  desplazamientoMaximo: 0.2
+  desplazamientoMaximo: 0.3
   invertirMovimiento: 0
 --- !u!54 &2030561464
 Rigidbody:
