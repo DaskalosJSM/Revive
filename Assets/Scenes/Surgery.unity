@@ -10464,7 +10464,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 7.1e-44, z: 3.0579e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 2e-44, z: 3.2192e-41, w: 1.3703687e+31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -11340,7 +11340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 0.01
-  desplazamientoMaximo: 0.3
+  desplazamientoMaximo: 0.2
   invertirMovimiento: 0
 --- !u!54 &2030561464
 Rigidbody:
@@ -11449,7 +11449,7 @@ Transform:
   m_GameObject: {fileID: 2030561462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.43800008, y: 0.376, z: -0.473}
+  m_LocalPosition: {x: 0.43800008, y: 0.497, z: -0.473}
   m_LocalScale: {x: 0.97150874, y: 0.21536922, z: 0.80066806}
   m_ConstrainProportionsScale: 0
   m_Children: []
