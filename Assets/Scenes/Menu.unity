@@ -519,10 +519,10 @@ RectTransform:
   - {fileID: 1298445874}
   m_Father: {fileID: 1035790432964534788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 60}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.9, y: -44}
+  m_SizeDelta: {x: 363.8, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77351565
 MonoBehaviour:
@@ -2289,7 +2289,7 @@ RectTransform:
   m_Father: {fileID: 181789057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3540,7 +3540,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4438,7 +4438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &664094830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6591,10 +6591,10 @@ RectTransform:
   - {fileID: 1885221800}
   m_Father: {fileID: 1035790432964534788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 60}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.9, y: -123.66}
+  m_SizeDelta: {x: 363.8, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &877212338
 MonoBehaviour:
@@ -9259,8 +9259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012971423, y: -0.000017763618}
-  m_SizeDelta: {x: 0, y: 1740.3}
+  m_AnchoredPosition: {x: -0.00012971423, y: -0.00045293372}
+  m_SizeDelta: {x: 39.9, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1123944595
 MonoBehaviour:
@@ -10177,8 +10177,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1211004479}
   m_HandleRect: {fileID: 356854355}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0.0000030594044
+  m_Size: 0.92835337
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11267,8 +11267,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1320841150}
   m_HandleRect: {fileID: 1375335457}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.20206286
+  m_Value: 1.0000001
+  m_Size: 0.109890625
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11629,10 +11629,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1123944594}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 258.5, y: -870.15}
-  m_SizeDelta: {x: 517, y: 1740.3}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 3200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1358744250
 MonoBehaviour:
@@ -11729,9 +11729,9 @@ MonoBehaviour:
     t\xF3rax).\nEx\xE1menes de laboratorio: Hemograma completo, enzimas card\xEDacas,
     perfil de coagulaci\xF3n.\nIm\xE1genes diagn\xF3sticas: Tomograf\xEDa de t\xF3rax
     para evaluar embolia grasa o complicaciones pulmonares.\nRevisi\xF3n de la pr\xF3tesis
-    y del campo quir\xFArgico si se detecta perforaci\xF3n o da\xF1o vascular.\nFirma
+    y del campo quir\xFArgico si se detecta perforaci\xF3n o da\xF1o vascular.\n\nFirma
     del M\xE9dico Responsable:\nDr. Antonio Ram\xEDrez\nCirujano Ortop\xE9dico\nMatr\xEDcula:
-    6789"
+    6789\n\n\n\n\n"
 --- !u!222 &1358744251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11850,8 +11850,8 @@ RectTransform:
   - {fileID: 1954923218}
   m_Father: {fileID: 794274031}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.79793715}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14723,7 +14723,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 9e-43, z: 1.9627e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 3.6e-44, z: 5e-44, w: 3.1395e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -16658,7 +16658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &490446792214207346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17000,7 +17000,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000015258789, y: -78}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 153.66}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1068674045220875496
 MonoBehaviour:
